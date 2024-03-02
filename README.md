@@ -2,4 +2,4 @@
 
 ### Has basic calculation control and supports modern devices across all screen sizes.
 
-Link Here: 
+Link Here: https://mnoor2.github.io/Minimal-Calculator/
