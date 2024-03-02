@@ -1,0 +1,81 @@
+body{
+    background-color: #252525;
+    font-family: Work Sans, sans-serif;
+    user-select: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    display: block;
+    width: 23em;
+    height: fit-content;
+    text-align: center;
+    border: 0.1em solid grey;
+    border-radius: 1.6em;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+}
+.view{
+    height: 4em;
+    font-size: 3em;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.view h1{
+    font-size: 1.4em;
+    font-family: Work sans, sans-serif;
+    font-weight: 300;
+    align-self: flex-end;
+    margin-bottom: 0px;
+}
+
+.row{
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+}
+.row .button{
+    border-radius: 3em;
+    width: 5em;
+    height: 5em;
+    margin: 0.5em 0.5em;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    color: #fff;
+}
+
+button h1{
+    font-weight: 500;
+    font-size: 1.8em;
+}
+#zero{
+    width: 11em;
+}
+#five{
+    margin-bottom: 1em;
+}
+button{
+    font-family: inherit;
+}
+.button:hover{
+    background-color: #736f6f;
+}
+
+#divide, #multiply, #subtract, #add, #equals{
+    background-color: #ff9f0a;
+}
+#clear, #negative, #percent{
+    background-color: #a5a5a5;
+    color: black;
+}
+#divide:hover, #multiply:hover, #subtract:hover, #add:hover, #equals:hover, #clear:hover, #negative:hover, #percent:hover{
+    background-color: #c5b79a;
+}
